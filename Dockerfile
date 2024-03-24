@@ -1,4 +1,4 @@
-FROM jboss/keycloak:latest
+FROM bitnami/keycloak:22
 
 COPY docker-entrypoint.sh /opt/jboss/tools
 
